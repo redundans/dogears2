@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Sono';
+	src: url('../webfonts/Sono-Regular.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Sono';
+	src: url('../webfonts/Sono-Medium.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Sono';
+	src: url('../webfonts/SonoSans-SemiBold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Sono';
+	src: url('../webfonts/Sono-Bold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Sono';
+	src: url('../webfonts/Sono-ExtraBold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'SonoSans';
+	src: url('../webfonts/SonoSans-Regular.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SonoSans';
+	src: url('../webfonts/SonoSans-Medium.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'SonoSans';
+	src: url('../webfonts/SonoSans-SemiBold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'SonoSans';
+	src: url('../webfonts/SonoSans-Bold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'SonoSans';
+	src: url('../webfonts/SonoSans-ExtraBold.woff2') format("woff2");
+	font-style: normal;
+	font-weight: 800;
+}
+
+h1 {
+	@apply text-3xl;
+}
+
+h2 {
+	@apply text-xl;
+}
+
+h3 {
+	@apply text-xl;
+}
+
+a {
+	@apply underline hover:no-underline;
+}
+
+input[type="text"] {
+	@apply border p-3 rounded;
+}
+
+input[type="submit"] {
+	@apply bg-black text-white hover:bg-white hover:text-black cursor-pointer rounded p-3;
+}
+
+textarea {
+	@apply border p-3 rounded;
+}
